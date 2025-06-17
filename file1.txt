@@ -1,0 +1,18 @@
+unadd git reset file_name / . for all
+unstaged(remove from commit) git restore --staged file_name / . for all 
+also use this git rm --cached file_name 
+git log to see commit history / --oneline (in short)
+.gitignore { agar koi file add ya commit nhi karna n to isme daal ke ignore kardo aur isko
+             add commit kardo dusra banda isko access bhi nhi kar saktha}
+.gitkeep   {git epmty folder ko track nhi kartha agar epmty folder ko
+            track karwana ho to usme .gitkeep daal do}
+
+
+BRANCH 
+ 
+git branch                    {to check current branch}
+git branch new_branch_name    {creat a new branch}
+git switch branch_name        {to switch into another branch}
+git swtich -c branch_name     {it also switch but if branch does'nt eixsts it creat it and switch}
+git checkout                  {same as switch}
+git branch -d branch_name     {delete branch}
