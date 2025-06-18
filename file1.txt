@@ -18,3 +18,4 @@ git checkout                                                {same as switch}
 git branch -d branch_name                                   {delete branch}
 git branch -m <old-branch-name> <new-branch-name>           {remane branch}
 git diff <branch-one> <branch-two>                          {do branch difference dekhne ke liye}
+git diff <commit-num>..<commit-num>                          {do commit difference dekhne ke liye}
