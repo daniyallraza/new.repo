@@ -10,9 +10,10 @@ git log to see commit history / --oneline (in short)
 
 BRANCH 
  
-git branch                    {to check current branch}
-git branch new_branch_name    {creat a new branch}
-git switch branch_name        {to switch into another branch}
-git swtich -c branch_name     {it also switch but if branch does'nt eixsts it creat it and switch}
-git checkout                  {same as switch}
-git branch -d branch_name     {delete branch}
+git branch                                                  {to check current branch}
+git branch new_branch_name                                  {creat a new branch}
+git switch branch_name                                      {to switch into another branch}
+git swtich -c branch_name                                   {it also switch but if branch does'nt eixsts it creat it and switch}
+git checkout                                                {same as switch}
+git branch -d branch_name                                   {delete branch}
+git branch -m <old-branch-name> <new-branch-name>           {remane branch}
