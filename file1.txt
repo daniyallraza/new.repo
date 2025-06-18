@@ -17,3 +17,4 @@ git swtich -c branch_name                                   {it also switch but 
 git checkout                                                {same as switch}
 git branch -d branch_name                                   {delete branch}
 git branch -m <old-branch-name> <new-branch-name>           {remane branch}
+git diff <branch-one> <branch-two>                          {do branch difference dekhne ke liye}
