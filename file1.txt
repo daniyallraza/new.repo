@@ -45,6 +45,9 @@ git push origin --tags                                      {push all tags to oi
 git show tags                                               {to see tags with msg}
 
 
+REBASE 
+
+
 
 REBASE 
         is used to move or replay the current branch's commits on top of another base branch — 
