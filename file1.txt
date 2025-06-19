@@ -54,8 +54,15 @@ REBASE
         Rebase is used to apply the changes of the current branch on top of another branch (like main), to make history
         linear and clean — without creating extra merge commits.
 
-git rebase main                                              {rebase main branch with clone branch avoid using reabse in master }
-git rebase --continue                                        {if any conflict occure after solving conflict run this command to continue}
+git rebase main                                            {rebase main branch with clone branch avoid using reabse in master }
+git rebase --continue                                      {if any conflict occure after solving conflict run this command to continue}
 
+
+REFLOG  
+
+git reflog                                                 {show you tyhe history of commit even the rebase one}
+git reflog <commit-hash>                                   {You can find a specific commit using the following command}
+git reset --hard <commit-hash>                             {you can delete all commits till the provided one}
+git reset --hard HEAD@{1}                                  {does the same}
 
 
