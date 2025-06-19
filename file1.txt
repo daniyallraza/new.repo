@@ -39,6 +39,7 @@ git tag <tag-name>                                          {use to tag latest c
 git tag -a <tag-name> -m "Release 1.0"                      {use to tag commit with msg}
 git tag <tag-name> <commit-hash>                            {tag any specific commit by commit hash}
 git tag                                                     {list of all tags}
-git tag -d <tag-name>                                            {delete any tag}
+git tag -d <tag-name>                                       {delete any tag}
 git push origin <tag-name>                                  {push specific tag to origin}
 git push origin --tags                                      {push all tags to oigin}
+git show tags                                               {to see tags with msg}
