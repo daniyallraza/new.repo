@@ -46,10 +46,6 @@ git show tags                                               {to see tags with ms
 
 
 REBASE 
-
-
-
-REBASE 
         is used to move or replay the current branch's commits on top of another base branch — 
         usually to update a feature branch with the latest changes from the main branch, without creating a merge commit.
         
