@@ -43,3 +43,20 @@ git tag -d <tag-name>                                       {delete any tag}
 git push origin <tag-name>                                  {push specific tag to origin}
 git push origin --tags                                      {push all tags to oigin}
 git show tags                                               {to see tags with msg}
+
+
+
+REBASE 
+        is used to move or replay the current branch's commits on top of another base branch — 
+        usually to update a feature branch with the latest changes from the main branch, without creating a merge commit.
+        
+        OR 
+
+        Rebase is used to apply the changes of the current branch on top of another branch (like main), to make history
+        linear and clean — without creating extra merge commits.
+
+git rebase main                                              {rebase main branch with clone branch avoid using reabse in master }
+git rebase --continue                                        {if any conflict occure after solving conflict run this command to continue}
+
+
+
