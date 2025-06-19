@@ -25,3 +25,9 @@ STASH
 git stash                                                   {you can switch to another branch without saving or adding}
 git stash list                                              {stash list }
 git pop                                                     {bring back the chages}
+git stash apply                                             {bring back the chages without removing it from list}
+git stash pop stash@{0}                                     {to pop a specific stash}
+git stash push -m "fix-bugs stash"                          {to name a stash}
+git stash save "fix-bugs stash"                             {to name a stash}
+git stash drop stash@{0}                                    {stash ko delete kar deta hai bina apply kiye}
+git stash clear                                             {delete all stash }
