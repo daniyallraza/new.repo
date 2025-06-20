@@ -88,3 +88,12 @@ git push --force origin main                             {git force push remote-
  git remote add upstream <remote-url>                     {same as git remote add -u <remote-url>}
    This will allow you to run future commands like git pull and git push without specifying the remote name.]
 
+
+
+
+COLLABORATINO IN GITHUB 
+
+                Main Man Makes All Basic And Push It In Git Hub Then Invites Collaborators, Collaborators Accept And Pull It In Thier Vs
+                Then He Make Another Barnch And Works On That And And Push That Branch To Git Hub And Tell The Main Man About It Then Main Man 
+                Run A Command On His Vs Code Git Fetch To Bring The Collaborators Branch To His Vs Code Then Main Man Merge Collaborators Branch
+                With Main And Then Push It To Github Okay That's All----
